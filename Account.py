@@ -92,7 +92,7 @@ def app():
           username=st.text_input("Enter unique username")
           def send_email(recipient_email, otp):
             sender_email = "rameshrao@gmail.com"
-            app_password = "ynuu lbgs edtq olhh"
+            app_password = "ynuu lbgs edtq phll"
 
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
