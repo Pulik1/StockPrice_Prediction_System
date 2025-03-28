@@ -91,7 +91,7 @@ def app():
            st.success("Email and Password formate are valid.")
           username=st.text_input("Enter unique username")
           def send_email(recipient_email, otp):
-            sender_email = "pulikrpatel@gmail.com"
+            sender_email = "rameshrao@gmail.com"
             app_password = "ynuu lbgs edtq olhh"
 
             server = smtplib.SMTP('smtp.gmail.com', 587)
